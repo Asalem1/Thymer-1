@@ -63,8 +63,21 @@ h3{
   font-family: 'Lobster Two', cursive;
 }
 
+.no-margin {
+  margin: 0;
+}
+
+.bs-example {
+  padding: 0;
+}
+
 .nav-bar{
     background-color: #E9EBE3;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    opacity: 1;
+    min-width: 100%;
 }
 
 .nav-bar li a{
@@ -115,7 +128,9 @@ label {
   background-color: #E9EBE3;
   border: 10px solid #edf0f4;
   border-radius: 5px;
-  box-shadow: 10px 10px 20px #888888
+  box-shadow: 10px 10px 20px #888888;
+  position: absolute;
+  top: 10%;
 }
 
 .submit-recipe,
@@ -266,7 +281,7 @@ input:checked + .slider:before {
 .vsc-initialized{
   margin-top: -125px;
   border-radius: 15px;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /*-------------------------HOME-------------------------*/
