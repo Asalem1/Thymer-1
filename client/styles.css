@@ -37,9 +37,10 @@ body {
   text-shadow: #000 2px 2px 3px;
 }
 
-#search-recipes{
-  margin-left: 10px;
+#search-recipes {
   width: 100%;
+  position: relative;
+  margin-top: 200px;
 }
 
 .recipeDescription {
@@ -49,6 +50,11 @@ body {
   text-shadow: 1px 1px 3px black;
   list-style-type: none;
   font-family: 'Comfortaa', cursive;
+}
+
+.recipe-list {
+  position: relative;
+  display: inline;
 }
 
 /*-------------------------GENERALIZED FONT STYLING-------------------------*/
